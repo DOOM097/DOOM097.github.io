@@ -1,73 +1,74 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Cериалы</title>
+    <title>Главная страница</title>
     <meta name="decription" content="КиноБаза - этопортало кино"/>
     <meta name="keywords" content="фильмы, фильмы онлайн, hd"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="main">
-        <header class="header"> 
-            <header class="logo">
-                <header class="logo_text">
-                    <h1><a href="index.html">KиноБaзa</a></h1> 
-                    <h2>Кино - наша страсть!</h2>
+            <header class="header"> 
+                <header class="logo">
+                    <header class="logo_text">
+                        <h1><a href="index.html">KinoBaza</a></h1> 
+                        <h2>Kino on meie kirg!</h2>
+                    </header>
                 </header>
-            </header>
-        <header class="menubar">
+            <nav class="menubar">
 
-            <ul class="menu">
-                <li class="selected"><a href="index.html">Главная</a></l>
-                <li><a href="films.html">Фильмы</a></li>
-                <li><a href="serials.html">Сеpиалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
-                <li><a href="contact.html">Koнтaкты</a></li>
-            </ul>
-        </header>
-    </header>
-        
-        <aside class="site_content">
-            <aside class="sidebar_container">
-                <aside class="sidebar">
-                    <h2>Поиск</h2>
-                    <form method="post" action="#" id="search_form" > 
-                        <input type="search" name="search_field" placeholder="Baш зaпpoc" /> 
-                        <input type="submit" class="btn" value="найти" />
-                    </form>
-
-                </aside>
-
-            <aside class="sidebar">
-                <h2>Вход</h2>
-                    <form method="post" action="#" id="login">
-
-                        <input type="text" name="login_field" placeholder="лoгин" />
-                        <input type="password" name="password_field" placeholder="пapoль" />
-                        <input type="submit" class="btn" value="Вход" /> 
-                        <aside class="lables_passreg_text">
-                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">
-                            Регистрация</a></span>
-                        </aside>
-                    </form>
-            </aside>
-            <article class="sidebar">
-                <h2>Новости</h2>
-                <span>31.02.2018</span>
-                <p>Мы запустили расширенный поиск</p>
-                <a href="#">читать</a>
-            </article>
-
-            <nav class="sidebar">
-                <h2>Рейтинг Сериалов</h2>
-                <ul>
-                    <li><a href="dead.html">Ходячие мертвецы</a><span class ="rating_sidebar">8.1</span></li>
-                    <li><a href="breakingbag.html">Во все тяжкие</a><span class ="rating_sidebar">8.0</span></li>
-                    <li><a href="silicon.html">Силиконовая долина</a><span class ="rating_sidebar">7.5</span></li>
-                    <li><a href="xfiles.html">Секретные материалы </a><span class ="rating_sidebar">7.4</span>
-
-                    </li>
+                <ul class="menu">
+                    <li class="selected"><a href="index.html">Kodu</a></l>
+                    <li><a href="films.html">Filmid</a></li>
+                    <li><a href="serials.html">Seerialid</a></li>
+                    <li><a href="rating.html">Filmi reiting</a></li>
+                    <li><a href="contact.html">Kontaktid</a></li>
                 </ul>
+            </nav>
+
+            </header>
+        
+                <aside class="site_content">
+                    <aside class="sidebar_container">
+                        <aside class="sidebar">
+                            <h2>Otsing</h2>
+                            <form method="post" action="#" id="search_form" > 
+                                <input type="search" name="search_field" placeholder="Baш зaпpoc" /> 
+                                <input type="submit" class="btn" value="найти" />
+                            </form>
+        
+                        </aside>
+            
+                    <aside class="sidebar">
+                        <h2>Sissepääs</h2>
+                            <form method="post" action="#" id="login">
+
+                                <input type="text" name="login_field" placeholder="login" />
+                                <input type="password" name="password_field" placeholder="password" />
+                                <input type="submit" class="btn" value="Вход" /> 
+                                <aside class="lables_passreg_text">
+                                    <span><a href="#">Unustasid salasõna?</a></span> | <span><a href="#">
+                                        Registreerimine</a></span>
+                                </aside>
+                            </form>
+                    </aside>
+                    <article class="sidebar">
+                        <h2>Uudised</h2>
+                        <span>31.02.2018</span>
+                        <p>Käivitasime täpsema otsingu</p>
+                        <a href="#">lugeda</a>
+                    </article>
+
+                    <nav class="sidebar">
+                        <h2>Filmi reiting</h2>
+                        <ul>
+                            <li><a href="show.html">Interstellar</a><span class ="rating_sidebar">8.1</span></li>
+                            <li><a href="#">Matrix</a><span class ="rating_sidebar">8.0</span></li>
+                            <li><a href="#">Hull Max</a><span class ="rating_sidebar">7.5</span></li>
+                            <li><a href="#">Pilveatlas</a><span class ="rating_sidebar">7.4</span>
+
+                            </li>
+                        </ul>
 
             </nav>
 
@@ -75,11 +76,11 @@
         <section class="content">
             <section class="info_film">
                 <img src="dead.png">
-                Американский сериал в жанре постапокалипсиса,
-                с элементами триллера и ужасов. Создателем, шоураннером 
-                и продюсером проекта выступил Фрэнк Дарабонт, который 
-                адаптировал для телевидения серию одноименных комиксов 
-                Роберта Киркмана, Тони Мура и Чарли Адларда.
+                Ameerika postapokalüptiline sari
+                 thrilleri ja õuduse elementidega. Looja, saatejuht
+                 ja produtsent Frank Darabont, kes
+                 kohandas televisiooni jaoks samanimelise koomiksisarja
+                 Robert Kirkman, Tony Moore ja Charlie Adlard.
                 <section class="button"><a href="dead.html">Смотреть</a></section>
             </section>
 
@@ -87,10 +88,10 @@
 
             <section class="info_film">
                 <img src="silicon.png">
-                История о группе гиков, готовящих к запуску 
-                собственные стартапы в высокотехнологичном центре Сан-Франциско.
-                Главные герои сериала бесплатно проживают в доме местного миллионера,
-                но взамен им придётся отдать по 10% прибыли от будущих проектов.
+                Lugu grupist geekidest, kes valmistuvad startima
+                 oma idufirmasid San Francisco kõrgtehnoloogilises keskuses.
+                 Sarja peategelased elavad tasuta kohaliku miljonäri majas,
+                 kuid vastutasuks peavad nad andma 10% tulevaste projektide kasumist.
                 <section class="button"><a href="silicon.html">Смотреть</a></section>
             </section>
 
@@ -99,11 +100,11 @@
 
             <section class="info_film">
                 <img src="breakingbad.png">
-                Школьный учитель химии Уолтер Уайт узнаёт, что болен раком лёгких.
-                Учитывая сложное финансовое состояние дел семьи, а также перспективы,
-                Уолтер решает заняться изготовлением метамфетамина. 
-                Для этого он привлекает своего бывшего ученика Джесси Пинкмана,
-                когда-то исключённого из школы при активном содействии Уайта.
+                Kooli keemiaõpetaja Walter White saab teada, et tal on kopsuvähk.
+                 Arvestades pere rasket rahalist olukorda ja väljavaateid,
+                 Walter otsustab hakata tootma metamfetamiini.
+                 Selleks värbab ta oma endise õpilase Jesse Pinkmani,
+                 kunagi Valge aktiivsel kaasabil koolist välja visatud.
                 <section class="button"><a href="breakingbag.html">Смотреть</a></section>
             </section>
 
@@ -112,22 +113,22 @@
 
             <section class="info_film">
                 <img src="xfiles.png">
-                Агентам ФБР Дане Скалли и Фоксу Малдеру поручают работу над проектом 
-                «Секретные материалы». Это архив нераскрытых дел, связанных с паранормальными 
-                явлениями. Малдер верит в пришельцев и пытается убедить скептика Скалли, 
-                что не всё поддаётся разумному объяснению. Постепенно взаимное недоверие 
-                перерастает в дружбу и даже в более глубокое чувство.
+                FBI agendid Dana Scully ja Fox Mulder on määratud projekti kallal töötama
+                 "Salajased materjalid". See on lahendamata paranormaalsete juhtumite arhiiv.
+                 nähtusi. Mulder usub tulnukatesse ja püüab skeptikut Scullyt veenda
+                 et kõike ei saa mõistlikult seletada. Järk-järgult vastastikune usaldamatus
+                 areneb sõpruseks ja isegi sügavamaks tundeks.
                 <section class="button"><a href="xfiles.html">Смотреть</a></section>
             </section>
         </section>
     </aside>
     <section class="footer">
         <p>
-            <a href="index.html">Главная</a> |
-            <a href="films.html">Фильмы</a> |
-            <a href="serials.html">Сериалы</a> |
-            <a href="rating.html">Рейтинг фильмов</a> |
-            <a href="contact.html">Контакты</a> |
+            <a href="index.html">Avaleht</a> |
+             <a href="films.html">Filmid</a> |
+             <a href="serials.html">Seriaalid</a> |
+             <a href="rating.html">Filmi hinnang</a> |
+             <a href="contact.html">Kontaktid</a> | 
         </p>
         <p>kinopoisk</p>
     </section>
