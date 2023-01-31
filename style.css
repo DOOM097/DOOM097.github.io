@@ -14,10 +14,28 @@ html{
     background: url(jpan.jpg) center/cover no-repeat;
     width:100%;
 
+
+
 }
 .myprojects{
     margin-top: 30px;
 }
 .myprojects a{
     color:antiquewhite
+}
+
+.col{
+
+text-indent:-900px; 
+
+
+    
+}
+.col2{
+ text-indent:900px; 
+
+
+
+
+
 }
