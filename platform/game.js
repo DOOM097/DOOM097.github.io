@@ -104,7 +104,7 @@ let game = {
         ++this.score;
 
         if (this.score >= this.blocks.length) {
-            this.end("Вы победили!");
+            this.end("ПЕРЕМОГА!");
         }
     },
 
