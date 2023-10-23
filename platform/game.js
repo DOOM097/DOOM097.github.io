@@ -84,7 +84,7 @@ let game = {
                 this.blocks.push({
                     active: true,
                     width: 59,
-                    height: 13,
+                    height: 19,
                     x: 64 * col + 65,
                     y: 24 * row + 35
                 });
